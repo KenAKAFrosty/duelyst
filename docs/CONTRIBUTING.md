@@ -149,8 +149,16 @@ realtime database you can press to copy the correct URL; don't copy and paste
 the address. We want the URl provided on the front page; it should look something
 like 'https://[name_of_database]-default-rtdb.firebaseio.com/".
 
-After the initial build, you can save time with `yarn build:app` (code only; no
-assets) or `yarn build:web` (frontend HTML/CSS/JS only).
+After the initial build, you can save time with 
+```
+cross-env FIREBASE_URL=<YOUR_FIREBASE_URL> yarn build:app
+``` 
+(code only; no
+assets) or 
+```
+cross-env FIREBASE_URL=<YOUR_FIREBASE_URL> yarn build:web
+``` 
+(frontend HTML/CSS/JS only).
 
 ## Starting the Game Locally <a id="starting-the-game" />
 
