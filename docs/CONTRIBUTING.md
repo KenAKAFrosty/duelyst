@@ -153,8 +153,7 @@ After the initial build, you can save time with
 ```
 cross-env FIREBASE_URL=<YOUR_FIREBASE_URL> yarn build:app
 ``` 
-(code only; no
-assets) or 
+(code only; no assets) or 
 ```
 cross-env FIREBASE_URL=<YOUR_FIREBASE_URL> yarn build:web
 ``` 
