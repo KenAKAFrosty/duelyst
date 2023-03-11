@@ -271,7 +271,7 @@ When you open a pull request, some tasks will automatically start in our
 Continuous Integration (CI) environment to lint and test the code.
 
 We use [Github Actions](https://github.com/features/actions) for CI, so you can
-see the atatus and results of these tasks right in the pull request itself.
+see the status and results of these tasks right in the pull request itself.
 
 Once the PR has been reviewed and accepted, it will be merged into the `main`
 branch. At this point, you are now an OpenDuelyst developer. Congratulations!
